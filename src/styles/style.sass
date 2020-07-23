@@ -1,0 +1,355 @@
+@import '~normalize.css'
+@import './base/colors'
+@import './base/fonts'
+*
+    margin: 0
+    padding: 0
+a
+    text-decoration: none
+.container
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
+.btn
+    width: 313px
+    height: 72px
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18)
+    border: 4px solid rgba(0, 0, 0, 0.11)
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%)
+    outline: none
+    text-decoration: none
+    cursor: pointer
+.title
+    font-family: 'Roboto Regular', sans-serif
+    font-size: 30px
+    text-transform: uppercase
+    text-align: center
+.promo
+    background: url('../public/images/main_bg.jpg') center (center/cover) no-repeat
+    padding: 39px 0 62px 0
+    &__text
+        color: #ffffff
+        font-size: 21px
+        font-weight: 300
+        line-height: 28px
+        font-family: 'Roboto Light', sans-serif
+        text-align: center
+        margin-top: 23px
+        padding: 0 15px
+        & span
+            color: $yellow
+            font-family: 'Roboto Bold', sans-serif
+            text-transform: uppercase
+    &__title
+        color: $yellow
+        font-family: 'Roboto Black', sans-serif
+        font-size: 41px
+        text-transform: uppercase
+        text-align: center
+        &-big
+            color: #ffffff
+            font-family: 'Roboto Black', sans-serif
+            font-size: 80px
+            text-transform: uppercase
+            text-align: center
+            margin: 21px 0 30px 0
+    &__btn
+        color: #ffffff
+        font-family: 'Roboto Condensed Regular', sans-serif
+        font-size: 21px
+        text-transform: uppercase
+        display: block
+        margin: 73px auto
+.logo
+    display: block
+    margin: 0 auto
+    &__text
+        color: #ffffff
+        font-family: 'Roboto Medium', sans-serif
+        font-size: 15px
+        text-transform: uppercase
+        text-align: center
+        margin-top: 14px
+h1
+    margin-top: 53px
+.more
+    &__text
+        color: #ffffff
+        font-family: 'Roboto Thin', sans-serif
+        font-size: 15px
+        text-align: center
+        text-transform: uppercase
+        cursor: pointer
+    &__img
+        display: block
+        margin: 0 auto
+        margin-top: 13px
+        cursor: pointer
+
+.waiting
+    background-color: $waiting_bg
+    padding: 85px 0 75px 0
+    &__title
+        color: $black_text
+    &__subtitle
+        color: $grey_text
+        font-family: 'Roboto Regular', sans-serif
+        font-size: 23px
+        text-align: center
+    &__line
+        width: 217px
+        height: 4px
+        background-color: $yellow
+        margin: 18px auto
+    &__wrapper
+        margin-top: 45px
+        display: flex
+        justify-content: space-between
+    &__item
+        text-align: center
+        width: 339px
+        margin-right: 10px
+        &:last-child
+            margin-right: 0          
+    &__img
+        width: 100%
+    &__descr
+        color: $grey_text
+        font-family: 'Roboto Light', sans-serif
+        font-size: 15px
+        line-height: 21px
+        margin-top: 33px
+.optimization
+    padding: 102px 0 107px 0
+    &__title
+        color: $optimization_title
+        font-family: 'Roboto Black', sans-serif
+        font-size: 25px
+        text-transform: uppercase
+        margin-left: 450px
+    &__text
+        color: $grey_text
+        font-family: 'Roboto Light', sans-serif
+        font-size: 17px
+        line-height: 27px
+        margin: 25px 0 0 450px
+        & span
+            font-family: 'Roboto Bold', sans-serif
+    &__img
+        position: absolute
+        top: -54px
+        left: -150px
+        z-index: -1
+.finish
+    padding: 86px 0 79px 0
+    background: url('../public/images/second_bg.jpg') center (center/cover) no-repeat
+    &__title
+        color: $black_text
+        color: $waiting_bg
+    &__line
+        width: 217px
+        height: 4px
+        background-color: $yellow
+        margin: 18px auto
+    &__wrapper
+        margin-top: 41px
+        display: flex
+        justify-content: space-between
+    &__item
+        width: 204px
+    &__round
+        width: 115px
+        height: 115px
+        background-color: $round_bg
+        border-radius: 100%
+        margin: 0 auto
+        display: flex
+        justify-content: center
+        align-items: center
+    &__descr
+        color: $waiting_bg
+        font-family: 'Roboto Light', sans-serif
+        font-size: 17px
+        line-height: 20px
+        text-align: center
+        margin-top: 23px
+.subscribe
+    background-color: $waiting_bg
+    padding: 86px 0 87px 0
+    &__img
+        display: block
+        margin: 0 auto
+    &__text
+        color: $black_text
+        font-family: 'Roboto Regular', sans-serif
+        font-size: 30px
+        line-height: 43px
+        text-align: center
+        margin: 42px 0 52px 0
+    &__btn
+        text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22)
+        color: #ffffff
+        font-family: 'Roboto Condensed Regular', sans-serif
+        font-size: 21px
+        display: block
+        margin: 0 auto
+        text-transform: uppercase
+.conference
+    padding: 89px 0 64px 0
+    &__img
+        display: block
+        margin: 0 auto
+    &__title
+        color: $black_text
+        margin-top: 37px
+    &__data
+        color: $optimization_title
+        font-family: 'Roboto Black', sans-serif
+        font-size: 36px
+        text-transform: uppercase
+        text-align: center
+        margin-top: 30px
+    &__subtitle
+        color: $grey_text
+        font-family: 'Roboto Regular', sans-serif
+        font-size: 23px
+        margin-top: 25px
+        text-align: center
+.footer
+    padding: 61px 0 69px 0
+    background-color: $footer_bg
+    text-align: center
+    &__link
+        font-family: 'Roboto Light', sans-serif
+        color: $footer-link
+        font-size: 15px
+        text-decoration: underline
+    &__number
+        font-family: 'Roboto Light', sans-serif
+        font-size: 15px
+        color: $footer-link
+        display: block
+        &_link
+            display: inline
+
+
+// media
+
+@media screen and ( max-width: 1170px)
+    .container
+        padding: 0 20px
+
+@media screen and ( max-width: 1024px )
+    .optimization
+        &__title
+            margin-left: 300px
+        &__text
+            margin: 25px 0 0 300px
+        &__img
+            position: absolute
+            top: 0
+            left: -240px
+            z-index: -1
+
+@media screen and ( max-width: 768px )
+    .optimization
+        text-align: center
+        &__title
+           margin: 0 0 25px 0
+        &__text
+            margin: 0
+        &__img
+            display: none
+    .waiting
+        &__descr
+            font-size: 14px
+    .finish
+        &__round
+            width: 100px
+            height: 100px
+        &__descr
+            font-size: 13px
+
+@media screen and ( max-width: 576px )
+    .promo
+        padding: 50px 0 60px 0
+        &__title
+            font-size: 32px
+        &__title-big 
+            font-size: 60px
+        &__text
+            font-size: 20px
+    .waiting 
+        padding: 50px 0 60px 0
+        &__wrapper
+            flex-direction: column
+            align-items: center
+        &__item
+            margin: 20px 0 0 0
+    .optimization
+        padding: 50px 0 60px 0
+    .finish
+        padding: 50px 0 60px 0
+        &__wrapper
+            flex-direction: column
+            align-items: center
+        &__item
+            margin-bottom: 15px
+    .subscribe
+        &__text 
+            font-size: 27px
+    .conference
+        padding: 50px 0 60px 0
+    .subscribe
+        padding: 50px 0 60px 0
+        &__text
+            font-size: 22px
+    .footer
+        padding: 50px 0 60px 0
+@media screen and ( max-width: 425px )
+    .promo
+        padding: 50px 0 60px 0
+        &__title
+            font-size: 21px
+        &__title-big 
+            font-size: 45px
+        &__text
+            font-size: 17px
+    .title
+        font-size: 21px
+    .waiting
+        &__subtitle
+            font-size: 19px
+
+@media screen and ( max-width: 375px )
+    .btn 
+        width: 275px
+        height: 60px
+        font-size: 19px
+    .waiting
+        &__item
+            width: 100%
+    .subscribe
+        &__text
+            line-height: 32px
+            font-size: 18px
+    .conference
+        &__img
+            width: 100%
+        &__data
+            font-size: 24px
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
