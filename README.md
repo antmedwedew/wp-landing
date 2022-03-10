@@ -1,4 +1,4 @@
-# верстка лендинга
+# Верстка лендинга
 
 # Ссылка
  https://antmedwedew.github.io/wp-landing/dist/index.html
